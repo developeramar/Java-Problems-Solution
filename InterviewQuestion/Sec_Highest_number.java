@@ -1,24 +1,24 @@
 package InterviewQuestion;
 // Q. Write a Java Program to find the second-highest number in an array.
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Sec_Highest_number {
 
     public static void main(String[] args) {
 
-        int max, secMax;
+        int max =0, secMax;
         int numArray[] = { 1, 5, 6, 2, 7, 8, 10, 20, 63 };
-        for (int i = 0; i < numArray.length; i++) {
-            for (int j = i + 1; j < i; j++) {
-                if (numArray[i] > numArray[j]) {
+        
+        int len = numArray.length;
 
-                    max = numArray[i];
-                    // on the process
+        Arrays.sort(numArray);
+        System.out.println(Arrays.toString(numArray));
 
-                }
-            }
-        }
+        int res = numArray[len-2];
+
+        System.out.println("Sec largest Number is  --  "+ res);
 
     }
 }
