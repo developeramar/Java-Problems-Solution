@@ -8,7 +8,7 @@ public class Sec_Highest_number {
 
     public static void main(String[] args) {
 
-        int max =0, secMax;
+        
         int numArray[] = { 1, 5, 6, 2, 7, 8, 10, 20, 63 };
         
         int len = numArray.length;

@@ -27,7 +27,7 @@ public class reverseWordT {
             }
         }
 
-        System.out.println("Original String --" + originalString);
+        System.out.println("Original String -- " + originalString);
         System.out.println("Reverse String ----" + reverseString);
 
     }
